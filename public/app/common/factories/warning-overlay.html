@@ -1,0 +1,11 @@
+<div class="modal-header modal-header-danger">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="noClicked()"><span aria-hidden="true">&times;</span></button>
+    <h3 class="modal-title" ng-cloak translate="{{title}}"></h3>
+</div>
+<div class="modal-body">
+    <p ng-cloak translate="{{message}}"></p>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-default-dark-blue" ng-click="noClicked()" ng-hide="!no" ng-cloak translate="{{no}}"></button>
+    <button class="btn btn-danger" ng-click="yesClicked()" ng-hide="!yes" ng-cloak translate="{{yes}}"></button>
+</div>
