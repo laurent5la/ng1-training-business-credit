@@ -1,0 +1,20 @@
+<div class="dnb-wrapper-sidebar tour-tabs" id="left-hand-menu">
+    <ul class="nav nav-pills nav-stacked report-nav">
+        <li ng-repeat="tab in tabs" ng-class="{'active' : tab.name === currentTabName, 'disabled':tab.disabled, 'withActive':  (tab.subTabNames && tab.subTabNames.indexOf(currentTabName) !== -1)}" >
+            <a ng-click=expandOrGo(tab)>
+                <span class="tab-icon" ng-if="tab.subTabs" ng-class="{'icon-arrow-right2' : !tab.expanded, 'icon-arrow-down' : tab.expanded}"></span>
+                <span translate="{{tab.translationKey}}"></span>
+                <span class="icon icon-lock2 pull-right" ng-if="tab.disabled"></span>
+            </a>
+
+            <ul class="nav nav-stacked cirrus-tabs cirrus-sub-tabs" ng-if="tab.subTabs && !tab.disabled" ng-show="tab.expanded">
+                <li ng-repeat="subTab in tab.subTabs" ng-class="{'active' : subTab.name === currentTabName}" >
+                    <a ng-click=expandOrGo(subTab)>
+                        <span translate="{{subTab.translationKey}}"></span>
+                    </a>
+                </li>
+            </ul>
+            
+        </li>
+    </ul>
+</div>
