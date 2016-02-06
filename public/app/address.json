@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "code": 200,
+    "error_code": "000000"
+  },
+  "response": {
+    "results": [
+      {
+        "duns": "014847170",
+        "name": "BRADY STREET, LLC",
+        "address": "50 IDLEWOOD RD",
+        "city": "KENTFIELD",
+        "state": "MO",
+        "zip": "949042753",   
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": ""
+      },
+      {
+        "duns": "136824195",
+        "name": "NOVATO COMMUNITY PARTNERS LLC",
+        "address": "2580 SHEA CENTER DR",
+        "city": "LIVERMORE",
+        "state": "CA",
+        "zip": "945517547",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "9252453600"
+      }, 
+      {
+        "duns": "967024357",
+        "name": "STARRETT CONSTRUCTION, INC.",
+        "address": "1941 FRIENDSHIP DR STE C",
+        "city": "EL CAJON",
+        "state": "CA",
+        "zip": "920201144",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "6194483025"
+      },
+      {
+        "duns": "624555590",
+        "name": "BRADSTREET ASSOC",
+        "address": "11828 TENNESSEE PL",
+        "city": "LOS ANGELES",
+        "state": "TM",
+        "zip": "900641319",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "3104798221"
+      },
+      {
+        "duns": "964652973",
+        "name": "DUN & BRADSTREET CREDIBILITY CORP.",
+        "address": "22761 PACIFIC COAST HWY",
+        "city": "MALIBU",
+        "state": "CA",
+        "zip": "902655098",
+        "branch_indicator": 0,
+        "location_type": "H",
+        "phone": "3104568271"
+      },
+      {
+        "duns": "030985402",
+        "name": "CARROLL BURDICK MC DONOUGH LLP",
+        "address": "44 MONTGOMERY ST STE 400",
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "zip": "941044606",
+        "branch_indicator": 0,
+        "location_type": "H",
+        "phone": "4159895900"
+      },
+      {
+        "duns": "178436338",
+        "name": "ODYSSEY RELOCATION MANAGEMENT",
+        "address": "27271 LAS RAMBLAS # 120",
+        "city": "MISSION VIEJO",
+        "state": "CA",
+        "zip": "926918041",
+        "branch_indicator": 0,
+        "location_type": "H",
+        "phone": "7148001915"
+      },
+      {
+        "duns": "932386840",
+        "name": "BRADSTREET STUDIOS",
+        "address": "1001 LEMON AVE",
+        "city": "EL CAJON",
+        "state": "CA",
+        "zip": "920207337",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "6195936198"
+      },
+      {
+        "duns": "136907917",
+        "name": "BRADSTREET INVESTMENT CO. LLC",
+        "address": "121 AGATE AVE",
+        "city": "NEWPORT BEACH",
+        "state": "CA",
+        "zip": "926621001",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "9496733588"
+      },
+      {
+        "duns": "039472761",
+        "name": "BRADSTREET INVESTMENT",
+        "address": "5918 WHEATSTALK LN",
+        "city": "BONITA",
+        "state": "CA",
+        "zip": "919023044",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "6194795600"
+      },
+      {
+        "duns": "163657740",
+        "name": "BRADSTREET CONSULTING",
+        "address": "717 CARHART AVE",
+        "city": "FULLERTON",
+        "state": "CA",
+        "zip": "928332352",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "7146767514"
+      },
+      {
+        "duns": "017820305",
+        "name": "BRADSTREET CONSTRUCTION",
+        "address": "",
+        "city": "SAN DIMAS",
+        "state": "CA",
+        "zip": "91773",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": ""
+      },
+      {
+        "duns": "014213486",
+        "name": "BRADSTREET MORTGAGE LLC.",
+        "address": "5 MINIKAHDA",
+        "city": "TRABUCO CANYON",
+        "state": "CA",
+        "zip": "926793732",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": ""
+      },
+      {
+        "duns": "019379654",
+        "name": "D AND B FLOORING",
+        "address": "",
+        "city": "LAKESIDE",
+        "state": "CA",
+        "zip": "92040",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": ""
+      },
+      {
+        "duns": "179026708",
+        "name": "D&B LOANS INC",
+        "address": "355 GELLERT BLVD STE 261",
+        "city": "DALY CITY",
+        "state": "CA",
+        "zip": "940152680",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "6509915170"
+      },
+      {
+        "duns": "179077487",
+        "name": "ARCH D&B",
+        "address": "939 TERRA BELLA AVE # B",
+        "city": "MOUNTAIN VIEW",
+        "state": "CA",
+        "zip": "940431827",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": ""
+      },
+      {
+        "duns": "017551892",
+        "name": "D&B B&B, LLC",
+        "address": "907 E GRINNELL DR",
+        "city": "BURBANK",
+        "state": "CA",
+        "zip": "915011217",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "8188617148"
+      },
+      {
+        "duns": "063344134",
+        "name": "D&B HOLDINGS LLC",
+        "address": "41975 WINCHESTER RD",
+        "city": "TEMECULA",
+        "state": "CA",
+        "zip": "925903403",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": ""
+      },
+      {
+        "duns": "092705133",
+        "name": "D&B SOLUTIONS LLC",
+        "address": "1650 AMANDA CT",
+        "city": "STOCKTON",
+        "state": "CA",
+        "zip": "952091802",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "2094733223"
+      },
+      {
+        "duns": "197843274",
+        "name": "D&B PROPERTIES LLC",
+        "address": "164 CALLA AVE",
+        "city": "IMPERIAL BEACH",
+        "state": "CA",
+        "zip": "919321004",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "6192548895"
+      },
+      {
+        "duns": "014988723",
+        "name": "D&B FUSION CORP",
+        "address": "174 N SWALL DR",
+        "city": "BEVERLY HILLS",
+        "state": "CA",
+        "zip": "902111904",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": ""
+      },
+      {
+        "duns": "624133620",
+        "name": "D&B WHOLESALE",
+        "address": "536 EL ROYA AVE",
+        "city": "MODESTO",
+        "state": "CA",
+        "zip": "953544117",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "2092383193"
+      },
+      {
+        "duns": "021080782",
+        "name": "D&B INSPECTIONS, INC.",
+        "address": "655 ANTONIO CT",
+        "city": "GILROY",
+        "state": "CA",
+        "zip": "950206720",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "4088488037"
+      },
+      {
+        "duns": "198673097",
+        "name": "D&B MECHANICAL, INC.",
+        "address": "",
+        "city": "EL CAJON",
+        "state": "CA",
+        "zip": "92021",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "6195960653"
+      },
+      {
+        "duns": "874897580",
+        "name": "BURGESS BRADSTREET LELAND & ASSOC",
+        "address": "14229 BESSEMER ST",
+        "city": "VAN NUYS",
+        "state": "CA",
+        "zip": "914013432",
+        "branch_indicator": 0,
+        "location_type": "S",
+        "phone": "8189970569"
+      }
+    ]
+  }
+}     

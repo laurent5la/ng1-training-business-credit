@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+  <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.0.3.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <body>
+  <div class = "container">
+    <div ng-app="myApp" ng-controller="myCtrl">
+      <div style="padding: 15px;">
+        <form class="form-inline" role="form">
+            Business Name: <input type="text" ng-model="businessName" ng-change="fetch()" class="form-control">
+            Address: <input type="text" ng-model="address" ng-change="fetch()" class="form-control">
+            State: <input type="text" ng-model="state" ng-change="fetch()" class="form-control">  
+        </form>
+        <br>
+
+        <nav>
+          <ul>
+            <li>
+              <a  href="#tab1" title="left"> 
+                Tab 1 
+              </a>
+            </li>
+            <li>
+              <a  href="#tab2" title="right">
+                Tab 2
+              </a>
+            </li>
+            <li>
+              <a href="#tab3" title="top">
+                Tab 3
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+    <div class="content">
+      <div ui-view>
+        <h1>Default Content</h1>
+      </div>
+    </div>
+  </div>
+
+
+          <!-- <button ng-click="checked = !checked" ng-model="checked"><br/>
+        <div>
+          <div class="check-element animate-hide" ng-show="checked">
+            <span class=""></span> Dun & Bradstreet
+          </div>
+        </div>
+        <div>
+          <div class="check-element animate-hide" ng-hide="checked">
+            
+          </div>
+        </div> -->
+<!--         <p>{{responseData}}</p> -->
+        <div class = "table-responsive" align="center">
+          <table class = "table table-striped table-hover">
+            <tr>
+              <th class="name"><a ng-click="sort_by('Name')">Name <i class="fa fa-sort"></i></a></th>
+              <th class="address"><a ng-click="sort_by('Address')">Address <i class="fa fa-sort"></i></a></th>
+              <th class="city"><a ng-click="sort_by('City')">City <i class="fa fa-sort"></i></a></th>
+              <th class="state"><a ng-click="sort_by('State')">State <i class="fa fa-sort"></i></a></th>
+            </tr>
+            <tr ng-repeat="x in responseData | orderBy:sortingOrder:reverse">
+              <td>{{ x.name }}</td>
+              <td>{{ x.address }}</td>
+              <td>{{ x.city }}</td>
+              <td>{{ x.state }}</td>
+            </tr>
+            <!-- <tr ng-repeat="x in filterData = (responseData | filter:{name: businessName, address:address, state:state})">
+              <td>{{ x.duns }}</td>
+              <td>{{ x.name }}</td>
+              <td>{{ x.address }}</td>
+              <td>{{ x.city }}</td>
+              <td>{{ x.state }}</td>
+            </tr> -->
+            <!-- <tr ng-repeat="x in responseData | addressFilter:'address':'^'">
+              <td>{{ x.duns }}</td>
+              <td>{{ x.name }}</td>
+              <td>{{ x.address }}</td>
+              <td>{{ x.city }}</td>
+              <td>{{ x.state }}</td>
+            </tr> -->
+          
+          </table>
+        </div>
+      </div>
+    </div>
+      <!-- <table>
+      <hr>
+        <tr ng-repeat="x in filterData = (responseData | filter:{FirstName: firstName, LastName:lastName, Age:age})">
+          <td>{{ x.FirstName }}</td>
+          <td>{{ x.LastName }}</td>
+          <td>{{ x.Age }}</td>
+        </tr>
+      </table> -->
+
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
