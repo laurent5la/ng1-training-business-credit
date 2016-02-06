@@ -1,0 +1,12 @@
+node_modules/
+bower_components/
+test/
+coverage/
+dist/
+docs/
+mocks/
+archive/
+.idea/
+.DS_Store
+app/about/client-version.json
+app/locale-revision-manifest.json
