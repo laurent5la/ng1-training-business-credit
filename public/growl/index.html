@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Growl Notifications </title>
+	<!--
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>			-->
+
+	<script type="text/javascript" src="../angular-1.5.0/angular.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+	<script type="text/javascript" src="../angular-growl-notifications-master/dist/angular-growl-notifications.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+<body ng-app="myApp">
+<!-- Display first notification -->
+<growl-notifications>
+</growl-notifications>
+
+<growl-notification ttl="5000">
+  	Search!
+  	<div>
+        <!-- Manually remove the notification using the $growlNotification.remove() method -->
+        <a href="#" ng-click="$growlNotification.remove()">Close me</a>
+    </div>
+</growl-notification>   
+
+
+<h3>Songs on The Beatles - Sgt. Pepper's Lonely Hearts Club Band (1967)</h3>
+<div ng-controller="myCtrl">
+<input type="text" ng-model="search">
+<button type="submit">Filter</button>
+<ul>
+<li class="animate some" ng-repeat="song in songs | filter:search">
+{{song}}
+</li> 
+</ul>
+</div>
+
+
+
+</body>
+</html>

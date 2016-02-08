@@ -1,0 +1,56 @@
+li{
+  list-style: none; 
+}
+
+body{
+  margin: 50px; 
+  background-color: #333; 
+  color: #ccc; 
+  overflow: hidden;
+}
+
+h3{
+  color: #fff;
+}
+
+.animate.ng-enter, .animate.ng-leave {
+  transition: all 0.5s ease-in;
+  position: relative;
+  display: block;
+} 
+
+  .animate.ng-leave, .animate.ng-enter.ng-enter-active{
+left: 0px;
+}
+
+ .animate.ng-enter, .animate.ng-leave.ng-leave-active{
+left: 500px;
+}
+/*
+.some.ng-enter {
+  transition: height 1s;
+  height: 0px;
+  overflow: hidden;
+}
+
+.some.ng-enter-active {
+  height: 100px;
+}
+*/
+
+growl-notifications {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  z-index: 1000;
+}
+
+growl-notifications growl-notification{
+  background: white;
+  color: black;
+  padding: 15px 30px;
+  width: 200px;
+  display: block;
+  border-radius: 5px;
+  margin-top: 15px;
+}
