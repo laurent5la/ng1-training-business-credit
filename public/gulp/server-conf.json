@@ -1,0 +1,22 @@
+{
+  "port": 9090,
+  "root": ["./dist/portal/"],
+  "mock": ["mock-services"],
+  "local": {
+    "enableResourceCompression": false,
+    "enableLiveReload" : true
+  },
+  "prod": {
+    "enableResourceCompression": true,
+    "enableLiveReload" : false
+  },
+  "livereload": {
+    "port": 35729,
+    "exts": [
+      ".json",
+      ".ttf",
+      ".svg",
+      ".wof"
+    ]
+  }
+}
